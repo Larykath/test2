@@ -150,4 +150,7 @@ public class HelloController
         return resultTextField.getText();
     }
 
+    public TextField getResultTextField() {
+        return resultTextField;
+    }
 }
